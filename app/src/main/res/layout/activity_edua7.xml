@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Should the Government Set-up More IITs and IIMs, OR should it be use the Money for Primary &amp; Secondary Education?"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In my point of view, if we want to construct a New building. The foundation of building should be strong. Like wise in our lives primary education is more important to us. It is useful to improve the higher education. Primary education is losing it's importance in the Time of growing IIT'S and IIM'S. \nCan a student go to IIT'S and IIM'S without proper primary education. It is very important to students but at the same time IIT'S and IIM'S are necessary to students because the growth of young talent in India requires better education.\n By these institutes, students perform their talent on the international front. And also foreign students are coming to IIT'S and IIM'S thus generating income to India."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="o, the government should not open more IITs. Even the old IITs are still not well-established, they don't have proper facilities then how can be think of more IITs?
+
+\n\nOpening IIT cost government Around 200 crore if this money is used in improving the quality of old IITs or in primary and secondary education much more can be achieved.
+
+\n\nAlso opening of new IITs by the govt. Instead of not much success by old IITs opening is just a way to increase their vote bank."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="According to my opinion today India needs a boost in its primary education rather than opening new IITs and IIMs.
+
+\n\nWithout watering the roots, you can't expect a good fruit. So only concentrating on the higher education will lead to the development and advancement of certain age group and that to for a certain period. But if we enhance our Primary education system we would be able to build up a strong educated foundation for Indian youths."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" I would like to say that government should allocate fund in such a way that the states already having a higher rate of primary and secondary education should be selected to set up IITs and IIMs and on the other hand States having lesser rate of literacy must be funded with money to start schools to provide primary education. \nKerala is the state having highest rate of literacy and is still lacking an IIT."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/edulinka7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.lokesh.interviewprep.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Major C++ features ?"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CLASS:-- Class is a blueprint of data and functions or methods. Class does not take any space.
+\n\nOBJECT:-- Objects are basic run-time entities in an object oriented system, objects are instances of a class these are defined user defined data types.
+\n\nEncapsulation and Data abstraction:-- Wrapping up(combining) of data and functions into a single unit is known as encapsulation. The data is not accessible to the outside world and only those functions which are wrapping in the class can access it. \nThis insulation of the data from direct access by the program is called data hiding or information hiding.
+\n\nData abstraction:-– providing only needed information to the outside world and hiding implementation details. For example, consider a class Complex with public functions as getReal() and getImag().\n We may implement the class as an array of size 2 or as two variables. The advantage of abstractions is, we can change implementation at any point, users of Complex class wont’t be affected as our method interface remains same. Had our implementation be public, we would not have been able to change it.
+\n\nInheritance:--Inheritance is the process by which objects of one class acquire the properties of objects of another class. It supports the concept of hierarchical classification. Inheritance provides reusability.\n This means that we can add additional features to an existing class without modifying it.
+\n\nPolymorphism:-- Polymorphism means ability to take more than one form. An operation may exhibit different behaviors in different instances. The behavior depends upon the types of data used in the operation.
+\n\nDynamic Binding:-- In dynamic binding, the code to be executed in response to function call is decided at runtime. C++ has virtual functions to support this.
+\n\nMessage Passing:-- Objects communicate with one another by sending and receiving information to each other. A message for an object is a request for execution of a procedure and therefore will invoke a function in the receiving object that generates the desired results. \nMessage passing involves specifying the name of the object, the name of the function and the information to be sent."
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

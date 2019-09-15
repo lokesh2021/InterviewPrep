@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Necessity of Women Quota Bill for Women Empowerment"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes, we require a quota bill for women empowerment,
+
+\n\nEspecially in India, women are still struggling to get basic rights in India. They are getting humiliated in many ways. There are many woman quotas already exist in India, still women are not getting equality in the society. There is the necessity to implement an effective women quota bill to give them equality and for their serviceability.
+
+\n\nWomen are working equality to men, still we are underestimating them, women are not getting jobs everywhere as men, just because they are women. In poor families, most of the girls not getting the basic education system, government to should come forward to implement a strong quota for women to give them equality and make them educated."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Preamble Of Indian Constitution.
+
+\n\n0022We The People OF INDIA, having solemnly resolved to constitute INDIA into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizen;
+
+\n\nJUSTICE, LIBERTY, EQUALITY, FRATERNITY\u0022
+
+\n\nWhat is my point is on the day of independence we accept the equality status for all Indian citizens and other fundamental rights for everyone without barriers of race, sex, age, etc.
+
+\n\nSo there is no sense making someone empower. But if these Bill provides security, employment and education in backward areas then it should be passed with the kind support and regards of every Indian citizen."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="What I think is that yes, we should treat both the gender equality, there shouldn't any quota for girls and even for boys. We all have the same capability to achieve what we want in our life if we are having good education for that.
+
+\n\nBut we have to take it under consideration that in our country, many poor people are there who are having daughter and they are not capable to educate them, but it might be same for a boy whose parents are not financially strong to make him educated.
+
+\n\nPoverty doesn't look at gender.
+
+\n\nFor the welfare of our society, if our government is capable to provide some kind of reservation, then this reservation should be given to the poor families of our country.
+
+\n\nAnd reservation is also not given according to the religion, if such a citizen is capable to earn his bread and butter, then there is no need to give him reservation. Same as for women.
+
+\n\nAnd also I want to add one point that a girl must be educated because when she is going to have a baby, she is only the person in the world who he's responsible for his/her thinking, and it is needed for our society to have well educated mind for your future."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In my opinion quota should be present for women why? Because undoubtedly women today are able to excel in almost all fields of life. Then whether it be banking sector, science or sports, but these are rare cases. \nWomen has the capability bit still the mindset of the society has not changed much.
+
+\n\nStill certain elements in the country are pushing the women backwards. To change this mindset it is important that women be given the reservations so that they can get a platform and chance to actually prove themselves."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #5:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="According to me, reservation for women is unnecessary. Because reservation meant for weak people like discriminated people and physically challenged (handicapped, blind). Many people who are talented &amp;skilled will work hard to achieve their goals&amp; aspirations. But because of this reservations they will be frustrated, disseminated of their unsatisfied goals.
+
+\n\nIn the present world, girls are giving good compact to men in every aspect of the life. They are capable of taking their decisions that they know what is good/bad for them. If govt wants do something for women provide them safety&amp; security that we need to respect them.
+
+\n\nParents worried about their daughter to send out of city for job or education due to lack of security so we need to provide safe environment. They are able to do anything &amp; have strong determination toward their goals."
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/politicslinka3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

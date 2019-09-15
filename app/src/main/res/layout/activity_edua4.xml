@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="E-Learning: A Substitute for Classroom Learning?"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-Learning cannot replace classroom learning. It is something like that innovation in learning. \nE-Learning has so many advantages- Education is everywhere, Remotely accessible, Learning makes easy, Learning in your own way, No need of the tutor, Get a wide range of knowledge about a specific topic to name a few. \nOn the other hand, Classroom Learning helps in so many ways- Easy to ask the doubts, an Instant solution of the doubts, Promotes collaborative learning, Enhance critical thinking skills, Improved social skills, Build organizational skills etc."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In my opinion, any well-developed technology cannot take the place of a teacher in a student's life.\n From childhood, it's our teachers who took care of us gave us basic knowledge, work hard with us.\n If in case smart board would have taught us that time we would have started calling your friend namely \u0022Ajay\u0022 as \u0022AJ\u0022 as per their pronunciation. It's good to have developments in education, learning methods and one must take full advantage of it but without forgetting our teachers.\n I know sometimes it is hard to understand what the teacher is teaching but on the hand, it is the teacher who keeps on motivating you to do well for your future."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-learning is a virtual learning program which is done by the electronics sources like a computer, laptop via the internet. Yes, definitely in this 21st-century e-learning has become a substitute for classroom learning, and it is playing an important role in our education system. It has many advantages:
+
+\n\n- Your Schedule, Your Pace, Your Place.
+\n- less fees in comparatively classroom program.
+\n-no transportation charge.
+\n-can attain our class from any location.
+\n-can got the same quality of education from any organisation (example the student who could not get a chance for study from NIT and IIT they can also learn the same thing. ).
+\n-environment-friendly (saves paper).
+\n-introduction of animation and video make it more understandable.
+\n-one teacher can teach a lot of student at a time.
+\nOnly the thing is student must be more disciplined and more focused.
+
+\n\nEvery coin has some pros and some cons, and definitely, also it has.
+
+\n\n-it does not develop the inter personal skills.
+\n-does not develop communication skills in the public.
+\n-it is little bit distractable.
+\n- required internet connection and electronic sources.
+\n- all site does not provide a certificate of particular courses.
+
+\n\nIn spite of all the disadvantage, it is more beneficial for the student especially after launching of JIo. Hence it is one of the substitute for the classroom program."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Education is a life, but education is not only a life
+\nTalent alone makes our life beautiful
+\nWithout talent reading all kind of books is useless
+\nEducation is one kind of skill, even to do that skill u need talent
+\nSo talent decides, who are you, not education.
+
+\n\nSome examples:
+\n* Bill gates
+\n* Ambani
+\n* Steve Jobs.
+
+\n\nDon't say they are exceptional, they are also humans. And did hard work with their talent, and now conquering the world.
+
+\nSo friends don't worry more about education, search and find your talent, and achieve your goal."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #5:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I don't think so E-classes will ever to substitute Classroom classes because When we are in classroom so, the teacher know what is the mindset of the students. \nWhat should be the datum level to be set so, that basic concepts of the topic can be understand by the students. In case of E-learning teacher don't know what level of students are going to see there videos."
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/edulinka4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

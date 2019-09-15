@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/mechanicalbackground"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="MECHANICAL ENGINEERING :-"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="30"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            /question 1/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1)   What are the different types of fits? Explain?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            //question 2//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2)  For a shaft designated as 40 H8/f7, calculate the tolerances.?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///queston3///
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3) What are the factors that can affect the Factor of safety selection?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            ////question4////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4) What is heat treatment and why is it done?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////question5/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5) What are the rules that must be kept in mind while designing castings?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /question6/
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6) What are the points that should be kept in mind during forging design?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //question7//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7) Describe briefly the different cold drawing processes."
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///question 8///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8) What are the different theories of failure under static load, explain briefly?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ////question 9////
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9) What are the assumptions made in simple theory of bending?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////question 10/////
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10) Why is stress considered important in a shaft?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /question 11/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11) What do you understand by the Hooke`s Coupling what are its purposes?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //qyestion 12//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12)  What kind of materials should be used for shafts manufacturing?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///question 13///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13)  Why should a chain drive be used over a belt or rope driven drive? State pro`s and con`s?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ////question 14////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14) What are the different types of springs and explain them briefly?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////q15/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15)  During the design of a friction clutch what are the considerations that should be made?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            /q16/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16)  What are the different types of brakes and explain them briefly?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //q17//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17)  On what basis can sliding contact bearings be classified? Explain?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///q18///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18)  What are the basis on which the best material for Sliding Contact Bearings manufacturing?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ////q19////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19) Briefly explain the advantages of Cycloidal and Involute gears?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////q20/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20) How can the reaction of support of a frame be evaluated?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /q21/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="21) Explain in an orderly manner how the force in the member of a truss be detected using the method of joint."
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //q22//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22) In order to derive the torsional formulas what are the assumptions taken?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///q23///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23) What are Bevel Gears and what are its types?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ////q24////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24) What are the different values that need to be determined in order to design a cylinder for an ICE?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////q25/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/meq25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25) What are considerations taken into account while creating a piston head?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

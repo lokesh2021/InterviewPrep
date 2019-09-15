@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="What is the role performed by Category C personnel in maintenance of aircraft?"
+                android:textColor="#FFFF"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Category C personnel are responsible for maintaining the management role of controlling the progress of the base maintenance inspections and seeing the work that is getting performed. \nThese handle the category B and category A staff and monitor their work. \nThey are responsible for ensuring the good work that will be carried out by providing the certification of maintenance. Category C personnel upon the completion of the maintenance job done by the base maintenance staff provides the certificate to allow the servicing of the aircraft to proceed. This way the people working in the staff become eligible to perform and provide services for flight."
+                        android:textColor="#6f6f6f"
+                        android:textSize="20sp" />
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

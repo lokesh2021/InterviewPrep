@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="We are not serious about saving Wildlife/Environment"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Being serious about saving nature/wildlife not only means being active in social media and showing sympathy about the degradation of environment and destruction of wildlife. Everyone has to come forward and should think own-self as a part of nature. The government should not compromise anything regarding the environment pollution controls and rules should be strict.
+
+\n\nThe illegal poaching, killing of animals for their body parts can't be stopped until the demand is stopped. People using illegal animal products (like tiger skin, elephant tusk, rhino horn) should not be forgiven."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes, we are not seriously about wildlife and environment. The quality of the environment is gradually decreased day by day but we are not bothered about it. Because we spend much time for ourself. That's really bad to see. We should give attention on how can we improve the nature and environment so that it feels impact on us."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nowadays saving the wildlife &amp; the environment is very major concern. The human being always thinks about them self. They didn't think about their future. If we continue cutting the trees &amp; killing the wild animals, one day there will be no oxygen in our planet &amp; Without oxygen, we can't live anymore. So indirectly we are harming our self.
+
+Another hand, The Wildlife. I think our next generation never know about a white tiger or Tiger, Elephant etc. Because nowadays people sell tiger skin, Elephant trunk for money. And finally, I'm giving one message to every people. Please Don't destroy other life, you have no authority."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This planet is 4.5 billion years old and homo sapiens came to this earth 2.5 millions of years ago only since then there were many humans who lived on this planet and left many remarks and memories for future generation.\n They made statues, temples, monuments etc to tell future generation about themselves. I know a temple which was made in 2 BC still existing but I'm not sure it will exist in coming future or not ? \nquestion is why I'm not sure ? well the simple answer is we are continuously destroying our own planet. \nI was shocked when I come to know that petroleum will only last for another 40 years and coal for another 200 years. \nToday many species are marked in endangered list. Why ? what is happening ? I don't understand even after being aware of these facts why people are not taking precautions?\n I'm scared that one day humans will also come in endangered list ! we all are aware of the fact that glaciers are melting, hole in ozone layer, death of penguins and polar bear.\n I don't want to see this planet die, why can't this planet live for another 4.5 billion years?."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #5:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="As we know species are exertion day by day.
+
+\n\nNowadays, Humans are using species for our own use and after that, we start destroying them. Then we disrespect gods creation.
+
+\n\nIf we spend time with our family, friends and relatives then why not to nature?
+
+\n\nIn our busy life, we can give time to all but we never think about nature.
+
+\n\nSo we should bring awareness in people and should try to conserve our wonderful nature for our future generation."
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/sociallinka7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

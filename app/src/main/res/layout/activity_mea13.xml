@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.lokesh.interviewprep.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why should a chain drive be used over a belt or rope driven drive? State pro`s and con`s?"
+                android:textColor="#FFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The advantages of using a chain drives are:
+\n> In a chain drive no slip occurrence takes place.
+\n> The chains take less space as compared to rope or belts as they are made of metal and offer much strength.
+\n> The chain drives can be used at both short and long ranges and they offer a high level of transmission efficiency.
+\n> Chain drives can transmit more load and power as compared to belts.
+\n> A very high speed ratio can be maintained in one step of chain drives. \n
+\n\nSome of the cons of using a chain drive are:
+\n> The cost of producing chain drives is higher as compared to that of belts.
+\n> The chain drives must be serviced and maintained at regular intervals and henceforth their cost of ownership is high comparatively."
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

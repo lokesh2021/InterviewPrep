@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="What is the main source of power in aircraft?"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:text="The main source of power is the hydraulic motor that is provided by the scheduled service and involves operations that allow technicians to solve complex system problems.\n This setup required certifying the technician to operate all the system the same way as it is been done with one system. The hydraulic motor needs to be operated the same way and maintained in a proper way. The alignment need to in synchronization with the aircraft auxiliary power unity (APU) before anything is done with the aircraft positioning. A standard need to, be followed to maintain the aircrafts and its parts equipped and working."
+                        android:textColor="#6f6f6f"
+                        android:textSize="20sp" />
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

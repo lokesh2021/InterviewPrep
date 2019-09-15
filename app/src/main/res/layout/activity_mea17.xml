@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.lokesh.interviewprep.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On what basis can sliding contact bearings be classified? Explain?"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sliding contact bearings can be classified on the basis of the thickness of the lubricating agent layer between the bearing and the journal. They can be classified as follows:
+\n\n> Thick film bearings: These type of bearings have their working surface separated by a layer of the lubricant. They are also known as hydrodynamic lubricated bearings.
+\n\n> Thin film bearings: In this type of bearings the surfaces are partially in direct contact with each other even after the presence of a lubricant. The other name for such type of bearings is boundary lubricated bearings.
+\n\n> Zero Film Bearings: These type of bearings as their name suggests have no lubricant present between the contact layers.
+\n\n> Externally or hydrostatically pressurized lubricated bearings: These bearings are able to without any relative motion support steady loads."
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

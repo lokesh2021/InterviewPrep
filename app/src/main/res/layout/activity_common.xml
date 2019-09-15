@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper1"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="COMMON INTERVIEW QUESTIONS:-"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="30"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            /question 1/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1)  Tell me something about yourself in brief"
+                        android:layout_gravity="center"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            //question 2//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2)  Describe who you are. or Tell me about your background."
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///queston3///
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3) What are your strengths and weaknesses?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            ////question4////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4) You have not done your PG yet. This is not a drawback, but don’t you think you should get a PG degree asap? or  Do you aspire to pursue higher studies?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////question5/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5) You have changed jobs/jumped ship too many times already, why so?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /question6/
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="6) What is your greatest fear?"
+                        android:layout_gravity="center"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //question7//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7) If I call up your current or previous reporting manager now, what will be their opinion about you? What will they say that you need to work on?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///question 8///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8) Do you have any serious medical issues?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ////question 9////
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9) What do your friends/co-workers say about you?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////question 10/////
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10) What did you do in the last year to improve your knowledge?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /question 11/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11) Explain the difference between group and team. Are you a team player?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //qyestion 12//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12)  What is your ideal company or workplace?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///question 13///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13)  Have you ever had to fire anyone? How did you feel about that?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ////question 14////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14)  What is the most difficult thing that you’ve ever accomplished? or What is the most difficult thing you have ever done?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////q15/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15) What is the difference between hard work and smart work?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            /q16/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16)  How do you feel about working weekends and night shifts?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //q17//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17)  Where do you see yourself 3 years from now? or Where do you see yourself in 5 years?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///q18///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18)  How quickly do you adapt to new technology?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ////q19////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19) What software packages are you familiar with?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////q20/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20) On a scale of 1 to 10 how would you rate yourself as a leader?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /q21/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="21) What makes you angry?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //q22//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22) Are you open to take risks? or Do you like experimenting?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///q23///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23)What are your future goals? Tell me about your short term and long-term goals."
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ////q24////
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="24) What motivates you?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////q25/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/coq25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25) What are your hobbies? or What are you passionate about?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

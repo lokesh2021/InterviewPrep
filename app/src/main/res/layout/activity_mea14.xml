@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.lokesh.interviewprep.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are the different types of springs and explain them briefly?"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Springs can be broadly classified into the following types:
+\n\n> Helical Springs: These springs as their name suggests are in coil form and are in the shape of helix. The primary purpose of such springs are to handle compressive and tensile loads. They can be further classified into two types: compression helical spring and tension helical spring each having their own unique areas of application./
+\n> Conical and volute springs: Both these spring types have specialized areas of usage where springs with adaptable rate according to the load is required. In case of conical springs they are wound so as to have a uniform pitch while on the other hand volute springs are wound in a slight manner of a parabloid.
+\n> Torsion Springs: The characteristics of such springs is that they tend to wind up by the load. They can be either helical or spiral in shape. These types of springs are used in circuit breaker mechanisms.
+\n> Leaf springs: These types of springs are comprised of metal plates of different lengths held together with the help of bolts and clamps. Commonly seen being used as suspensions for vehicles.
+\n> Disc Springs: As the name suggests such types of springs are comprised of conical discs held together by a bolt or tube.
+\n> Special Purpose Springs: These springs are all together made of different materials such as air and water."
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

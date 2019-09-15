@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Films are corrupting the Indian Youth"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I think the answer is No,
+
+\n\nBecause it completely depends on us. While we are watching a movie some changes occur in us. But we can't express it in the way whatever we want to do. When we think about those things which happened in that film we can predict all are not correct, it is just to create some ideas for our survival in this society not to act in our real life for all the times."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I think, just as every coin has two faces, movies also have two faces- the good impact and the bad impact on youth.
+
+\n\nIt's in the hands of the person who watches the movie whether to adopt good things from it or bad things.
+
+\n\nIn reality some movies are made to show the truth of the world. These are never meant to leave a negative impact, but if still somebody wants to learn bad things then what can anybody do?"
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Films are the best way to teach because we learn more from the video than from theories or text. Daily new films are releasing in our country whether regional or Bollywood films. It is not appropriate to say that films are only destroying our youth, because many films like Gandhi, The legend of bhagat singh can motivate our youth, there are many films which are beneficial for our youth, but our film industry is going in the wrong direction they are makinh films on gangsters, romance, thriller \nthis is only what they are showing and what our youth want to see, they are not showing the good things, we don't wanna become gangsters we don't want to become so called aashiqs,\n and the another thing that is destroying our youth us lavishing and negative lifestyle of filmstars they are smoking hukkas, cigarettes, this is the thing what our youth is watching, we think if they are doing this why can't we, films and filmstars are affecting our youth but it's also our responsibility to be not affected by this."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Films are the most popular media that impact our society. The prime role of film is obviously to give entertainment.
+
+\n\nWhile watching movie we imagine ourself into some other world. For 2 &amp; half hours it takes us to a completely different world. We laugh, cry, sometimes scared also, after all it entertains. But this entertainment need to be progressive. As films have impact on society &amp; youth it should provide some messenge.
+
+\n\nThere are movies like Baghban which shows our responsibility towards parents.
+
+\n\nThere are films like pride &amp; prejudice, pink which tell about woman socio-cultural situation &amp; lie stress on woman empowerment.
+
+\n\nFilms like tare zameen par shows is how we can think differently, &amp; that is not also something not acceptable in society. Yes different people-different mind-different thoughts. &amp; we all are justified.
+
+\n\nBiopics like bhag milkha bhag, ms dhoni, mary kom are truely inspirational. We see how common people with iron determination, positive action, hard work can win in any field of life. Yes, we people can also achieve something if we truely beleive in ourselves.
+
+\n\nFilms like bordar, chak de India, airlift, jai ho, neerja make us patriotic. We the youth feel the responsibility towards our motherland. We feel the courage, bravery. We get inspired.
+
+\n\nFilms like 3-idiots is such an amaging storyline. Yes I feel that film is a huge success, not only in box office, but in the hearts of thousands of people. So true the concept that we all are running for marks. We people don't understand things, &amp; our education system does not lie stress on learning. We all are becoming machines, but in real life scenery we should feel the humger for knowledge, success will autometically come.
+
+\n\nThe film Dangal, sultan is also very motivative, &amp; won our hearts.
+
+\n\nThe film nayak show the political condition. It gives a strong message to our society.
+
+\n\nSome historical things are often shown by films. We get introduced to ourselves by these films.
+
+\n\nBut eberything has its pros &amp; cons. Films have also.
+
+\n\nThere are films which are crime based. Our human nature always cathes the evil thimgs. Some get crimimal minded.
+
+\n\nFilms showing vulgar scenes, sex provoking etc should be banned.
+
+\n\nWe people try to copy western dresses, their lifestyle forgetting our culture.
+
+\n\nMoreover the teenagers use slang language fluently copying from movies.
+
+\n\nThe revenge process in films are often shown in destructive &amp; psychotic way. We should avoid this type of revengeful attitude as it is harmful for oir society &amp; most importantly for us.
+
+\n\nThe vulgar scenes, item songs are cheap thrills which distract us from moral path.
+
+\n\nChildren try to copy scenes from spiderman or superman, &amp; it often end their life. Not only these films, copying stunts often causes accidents.
+
+\n\nHorror films have no social values. Moreover these increase superstitions.
+
+\n\nCriminal mindset, robbery techniques, rape tendency are gift of some films.
+
+\n\nBut actually, more than blaming films, we should blame our thought process. We have to take the good from films, not bad or vulgarities. Its our duty to extract goodness of everything. &amp; filmmakers should show some social responsibility rather than making films for just only collecting crores in box office which practically have no good messenge or value, just a cheap thrill."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #5:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The human brain is developed in such a way that it tries to capture the negative thinks quickly than positive think. The one who will captures positive thinks in every situation and act on it as well as neglecting negative thinks he is only the successfull human in this world.
+
+\n\nIn films many positive as well as negative scenes are showned. It depends on individuals thinking, the one who takes positive from the film and neglecting the negativities from it, that person is only successful in life."
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/sociallinka8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

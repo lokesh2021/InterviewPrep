@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:id="@+id/activity_main"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/aeronotical"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="AERONAUTICAL ENGINEERING:-"
+                android:textColor="#00008b"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="30"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+                                     /question 1/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1)   What are the characteristics that keep solid and fluid different?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+                                //question 2//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2)  What are the objectives of Aerodynamics?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                    ///queston3///
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3) What are the sources involved in aerodynamics?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+                                    ////question4////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4) What are the conditions given for the two flows to be dynamically similar?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                    /////question5/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5) What are the differences between continuum flow and free molecule flow?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                    /question6/
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6) What are the differences between inviscid and viscous flow?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                    //question7//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7) What are the differences between incompressible and compressible flows?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                            ///question 8///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8) What are the different speed types of flows used in identifying Mach number?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                ////question 9////
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9) What are the major sectors involved in aircraft maintenance?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                /////question 10/////
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10) What are the operations performed by Category B technicians?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                            /question 11/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11) What is the main source of power in aircraft?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                            //qyestion 12//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12)  What are the differences in the job performed by line maintenance certifying staff and base maintenance certifying staff?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                            ///question 13///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13)  What is the role performed by Category C personnel in maintenance of aircraft?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                            ////question 14////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14)  What are the safety recommendations required while maintaining aircraft?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                /////q15/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15)  What are the different stress types present in aircraft operations?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+                                             /q16/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16)  Why is strain a major factor in aircraft engineering?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                //q17//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17)  What are the different types of modulus involved in mechanics?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                                ///q18///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18)  What are the mechanical properties required to know before performing maintenance?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                            ////q19////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19) Explain in brief about each property used in mechanics?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                            /////q20/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20) What is the purpose of load extension graphs?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                            /q21/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="21) Why is torsion such an important feature in aircraft engines?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                    //q22//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22) What is the main function of propulsive thrust?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                    ///q23///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23) Why is the study of gyroscopes motion required to learn aircraft applications?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                        ////q24////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24) What are the laws of gyro-dynamics?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+                        /////q25/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/aeq25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25) What is being expressed by Sperry’s rule of precession?"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

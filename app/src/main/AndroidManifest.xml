@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lokesh.interviewprep">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iplogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iplogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Resume"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chronological"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".functional"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hybrid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".course"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aeronautical"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".computer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mechanical"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea14"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea15"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea16"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea17"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea18"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea19"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea20"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea21"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea22"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea23"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea24"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".aea25"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".c"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ca1" />
+        <activity android:name=".ca2" />
+        <activity android:name=".ca3" />
+        <activity android:name=".ca4" />
+        <activity android:name=".ca5" />
+        <activity android:name=".ca6" />
+        <activity android:name=".ca7" />
+        <activity android:name=".ca8" />
+        <activity android:name=".ca9" />
+        <activity android:name=".ca10" />
+        <activity android:name=".ca11" />
+        <activity android:name=".ca12" />
+        <activity android:name=".ca13" />
+        <activity android:name=".ca14" />
+        <activity android:name=".ca15" />
+        <activity android:name=".ca16" />
+        <activity android:name=".ca17" />
+        <activity android:name=".ca18" />
+        <activity android:name=".ca19" />
+        <activity android:name=".ca20" />
+        <activity
+            android:name=".p"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".j"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ja1" />
+        <activity android:name=".ja2" />
+        <activity android:name=".ja3" />
+        <activity android:name=".ja4" />
+        <activity android:name=".ja5" />
+        <activity android:name=".ja6" />
+        <activity android:name=".ja7" />
+        <activity android:name=".ja8" />
+        <activity android:name=".ja9" />
+        <activity android:name=".j10" />
+        <activity android:name=".ja11" />
+        <activity android:name=".ja12" />
+        <activity android:name=".ja13" />
+        <activity android:name=".ja14" />
+        <activity android:name=".ja15" />
+        <activity android:name=".ja16" />
+        <activity android:name=".ja17" />
+        <activity android:name=".ja18" />
+        <activity android:name=".ja19" />
+        <activity android:name=".ja20" />
+        <activity android:name=".pa1" />
+        <activity android:name=".pa2" />
+        <activity android:name=".pa3" />
+        <activity android:name=".pa4" />
+        <activity android:name=".pa5" />
+        <activity android:name=".pa6" />
+        <activity android:name=".pa7" />
+        <activity android:name=".pa8" />
+        <activity android:name=".pa9" />
+        <activity android:name=".pa10" />
+        <activity android:name=".pa11" />
+        <activity android:name=".pa12" />
+        <activity android:name=".pa13" />
+        <activity android:name=".pa14" />
+        <activity android:name=".pa15" />
+        <activity android:name=".pa16" />
+        <activity android:name=".pa17" />
+        <activity android:name=".pa18" />
+        <activity android:name=".pa19" />
+        <activity android:name=".pa20" />
+        <activity android:name=".mea1" />
+        <activity android:name=".mea2" />
+        <activity android:name=".mea3" />
+        <activity android:name=".mea4" />
+        <activity android:name=".mea5" />
+        <activity android:name=".mea6" />
+        <activity android:name=".mea7" />
+        <activity android:name=".mea9" />
+        <activity android:name=".mea8" />
+        <activity android:name=".mea10" />
+        <activity android:name=".mea11" />
+        <activity android:name=".mea12" />
+        <activity android:name=".mea13" />
+        <activity android:name=".mea14" />
+        <activity android:name=".mea15" />
+        <activity android:name=".mea16" />
+        <activity android:name=".mea17" />
+        <activity android:name=".mea18" />
+        <activity android:name=".mea19" />
+        <activity android:name=".mea20" />
+        <activity android:name=".mea21" />
+        <activity android:name=".mea22" />
+        <activity android:name=".mea23" />
+        <activity android:name=".mea24" />
+        <activity android:name=".mea25" />
+        <activity android:name=".electrical" />
+        <activity android:name=".eea1" />
+        <activity android:name=".eea2" />
+        <activity android:name=".eea3" />
+        <activity android:name=".eea4" />
+        <activity android:name=".eea5" />
+        <activity android:name=".eea6" />
+        <activity android:name=".eea7" />
+        <activity android:name=".eea8" />
+        <activity android:name=".eea9" />
+        <activity android:name=".eea10" />
+        <activity android:name=".eea11" />
+        <activity android:name=".eea12" />
+        <activity android:name=".eea13" />
+        <activity android:name=".eea14" />
+        <activity android:name=".eea15" />
+        <activity android:name=".eea16" />
+        <activity android:name=".eea17" />
+        <activity android:name=".eea18" />
+        <activity android:name=".eea19" />
+        <activity android:name=".eea20" />
+        <activity android:name=".eea21" />
+        <activity android:name=".eea22" />
+        <activity android:name=".eea23" />
+        <activity android:name=".eea24" />
+        <activity android:name=".eea25" />
+        <activity android:name=".common" />
+        <activity android:name=".coa1" />
+        <activity android:name=".coa2" />
+        <activity android:name=".coa3" />
+        <activity android:name=".coa02" />
+        <activity android:name=".coa4" />
+        <activity android:name=".coa5" />
+        <activity android:name=".coa6" />
+        <activity android:name=".coa7" />
+        <activity android:name=".coa8" />
+        <activity android:name=".coa9" />
+        <activity android:name=".coa10" />
+        <activity android:name=".coa11" />
+        <activity android:name=".coa12" />
+        <activity android:name=".coa13" />
+        <activity android:name=".coa14" />
+        <activity android:name=".coa15" />
+        <activity android:name=".coa16" />
+        <activity android:name=".coa17" />
+        <activity android:name=".coa18" />
+        <activity android:name=".coa19" />
+        <activity android:name=".coa20" />
+        <activity android:name=".coa21" />
+        <activity android:name=".coa22" />
+        <activity android:name=".coa23" />
+        <activity android:name=".coa24" />
+        <activity android:name=".coa25" />
+        <activity
+            android:name=".itips"
+            android:label="@string/title_activity_itips"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".exp"
+            android:label="@string/title_activity_exp"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".expcs"
+            android:label="@string/title_activity_expcs"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".google"
+            android:label="@string/title_activity_google"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".google1" />
+        <activity android:name=".google2" />
+        <activity android:name=".google3" />
+        <activity android:name=".google4" />
+        <activity android:name=".google5" />
+        <activity android:name=".google6" />
+        <activity android:name=".microsoft" />
+        <activity android:name=".microsoft1" />
+        <activity android:name=".microsoft2" />
+        <activity android:name=".microsoft3" />
+        <activity android:name=".microsoft4" />
+        <activity android:name=".oracle" />
+        <activity android:name=".oracle1" />
+        <activity android:name=".oracle2" />
+        <activity android:name=".oracle3" />
+        <activity android:name=".oracle4" />
+        <activity android:name=".amazon" />
+        <activity android:name=".amazon1" />
+        <activity android:name=".amazon2" />
+        <activity android:name=".amazon3" />
+        <activity android:name=".amazon4" />
+        <activity android:name=".expmechanical"/>
+        <activity android:name=".isro" />
+        <activity android:name=".isro1" />
+        <activity android:name=".isro2" />
+        <activity android:name=".isro3" />
+        <activity android:name=".isro4" />
+        <activity android:name=".isro5" />
+        <activity
+            android:name=".gd"
+            android:label="@string/title_activity_gd"
+            android:theme="@style/AppTheme"
+            />
+        <activity android:name=".currenta1" />
+        <activity android:name=".current" />
+        <activity android:name=".currentlinka1" />
+        <activity android:name=".currenta2" />
+        <activity android:name=".currentlinka2" />
+        <activity android:name=".currenta3" />
+        <activity android:name=".currentlinka3" />
+        <activity android:name=".currentq4" />
+        <activity android:name=".currentlinka4" />
+        <activity android:name=".currenta4" />
+        <activity android:name=".currenta5" />
+        <activity android:name=".currentlinka5" />
+        <activity android:name=".currenta6" />
+        <activity android:name=".currentlinka6" />
+        <activity android:name=".currenta7" />
+        <activity android:name=".currentlinka7" />
+        <activity android:name=".currenta8" />
+        <activity android:name=".currentlinka8" />
+        <activity android:name=".social" />
+        <activity android:name=".sociala1" />
+        <activity android:name=".sociallinka1" />
+        <activity android:name=".sociala2" />
+        <activity android:name=".sociallinka2" />
+        <activity android:name=".sociala3" />
+        <activity android:name=".sociallinka3" />
+        <activity android:name=".sociala4" />
+        <activity android:name=".sociallinka4" />
+        <activity android:name=".sociala5" />
+        <activity android:name=".sociallinka5" />
+        <activity android:name=".sociala6" />
+        <activity android:name=".sociallinka6" />
+        <activity android:name=".sociala7" />
+        <activity android:name=".sociallinka7" />
+        <activity android:name=".sociala8" />
+        <activity android:name=".sociallinka8" />
+        <activity android:name=".functional1" />
+        <activity android:name=".politics" />
+        <activity android:name=".politicsa1" />
+        <activity android:name=".politicslinka1" />
+        <activity android:name=".politicsa2" />
+        <activity android:name=".politicslinka2" />
+        <activity android:name=".politicsa3" />
+        <activity android:name=".politicslinka3" />
+        <activity android:name=".politicsa4" />
+        <activity android:name=".politicslinka4" />
+        <activity android:name=".politicsa5" />
+        <activity android:name=".politicslinka5" />
+        <activity android:name=".politicsa6" />
+        <activity android:name=".politicslinka6" />
+        <activity android:name=".politicsa7" />
+        <activity android:name=".politicslinka7" />
+        <activity android:name=".politicsa8" />
+        <activity android:name=".politicslinka8" />
+        <activity android:name=".edu" />
+        <activity android:name=".edua1" />
+        <activity android:name=".edulinka1" />
+        <activity android:name=".edua2" />
+        <activity android:name=".edulinka2" />
+        <activity android:name=".edua3" />
+        <activity android:name=".edulinka3" />
+        <activity android:name=".edua4" />
+        <activity android:name=".edulinka4" />
+        <activity android:name=".edua5" />
+        <activity android:name=".edulinka5" />
+        <activity android:name=".edua6" />
+        <activity android:name=".edulinka6" />
+        <activity android:name=".edua7" />
+        <activity android:name=".edulinka7" />
+        <activity android:name=".edua8" />
+        <activity android:name=".edulinka8" />
+        <activity android:name=".sports" />
+        <activity android:name=".sportsa1" />
+        <activity android:name=".sportslinka1" />
+        <activity android:name=".aptitude" />
+
+        <activity android:name=".about" />
+
+    </application>
+
+</manifest>

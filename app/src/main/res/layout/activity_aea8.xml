@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="What are the different speed types of flows used in identifying Mach number?"
+                android:textColor="#FFFF"
+                android:textSize="28sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="There are four types of flows that consist of different speeds and can be identified using Mach number:
+\n• Subsonic flow where M is less than 1 everywhere, this is a field that is defined as subsonic if it matches the Mach number that is less than 1 at every point. These are displayed by smooth streamlines that consists of no discontinuity in slope. The flow velocity is everywhere less than the speed of sound and the disturbances are all around the flow field.
+\n• Transonic flow, where mixed regions exist and M less than 1 or M greater than 1, this is a flow field that defines that the M8 is increased just above the unity and it is formed in front of the body. These are the mixed subsonic and supersonic flows that are influenced by both the flows.
+\n• Supersonic flow where M greater than 1 everywhere, this type is defined when Mach number is greater than 1 at every point. They are represented by the presence of shock waves across which the flow properties and streamlines changes discontinuously.
+\n• Hypersonic flow where the speed is greater than supersonic, this is defined when the shock waves moves closer to the body surface and the strength of the shockwave increases leading to higher temperatures between the shock and body surface."
+                        android:textColor="#6f6f6f"
+                        android:textSize="20sp" />
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

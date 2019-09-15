@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper3"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Google:-"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/google1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technical Operations Specialist"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <Button
+                android:id="@+id/google2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Placement Questions"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"/>
+
+
+            <Button
+                android:id="@+id/google3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Mountain View"
+                android:textStyle="bold"
+
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/google4"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Software Developer Position"
+                android:textStyle="bold"
+
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"/>
+
+
+            <Button
+                android:id="@+id/google5"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="for Java Position"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/google6"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For Software Engineering Intern"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"/>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

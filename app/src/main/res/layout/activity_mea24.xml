@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.lokesh.interviewprep.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are the different values that need to be determined in order to design a cylinder for an ICE?"
+                android:textColor="#FFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The following values are needed to be determined:
+\n\n> Thickness of the cylinder wall: The cylinder walls in an engine is made witness to gas pressure and the side thrust of a piston. This results in two types of stresses: longitudinal and circumferential stress. Both the types of stresses are perpendicular to each other and hence it is aimed to reduce the resulting stress as much as possible.
+\n> Length and bore of the cylinder: The length of the cylinder and the length of the stroke is calculated on the basis of the formula: length of cylinder L = 1.15 times the length of the stroke (l). L = 1.15(l)
+\n> Cylinder flange and studs: The cylinders are always cast integral as a part of the upper crankcase or in some cases attached to it by means of nuts and bolts. The flange is integral to a cylinder and henceforth its thickness should be greater than that of the cylinder wall. The thickness of flange should generally be between 1.2t-1.4t where t is the cylinder thickness.
+\n\nThe stud diameter is calculated by equating gas load ( due to max pressure ) to the grand total of all the resisting forces of the studs."
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:id="@+id/activity_main"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper9"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Education"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="40sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="30"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            /question 1/
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/eduq1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)  Advantages of Co-education"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            //question 2//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/eduq2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2) Examinations - has it killed education"
+                        android:layout_gravity="center"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///queston3///
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/eduq3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3) Do we really Need Education to be Successful?"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            ////question4////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/eduq4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4) E-Learning: A Substitute for Classroom Learning?"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /////question5/////
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/eduq5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5) Private Educational Institutions: Good or Bad"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            /question6/
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/eduq6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="6) Foreign Universities in India"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            //question7//
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/eduq7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="7) Should the Government Set-up More IITs and IIMs, OR should it be use the Money for Primary &amp; Secondary Education?"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            ///question 8///
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/eduq8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="8) Is Reservation in Higher Education Only Alternative for Social Equality?"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

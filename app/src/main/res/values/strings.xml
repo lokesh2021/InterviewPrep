@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Interview Prep</string>
+    <string name="second_home_activity_started1">second /home activity started</string>
+    <string name="todo">TODO</string>
+    <string name="home_page_text">Welcome to Interview Prep !</string>
+    <string name="welcome_to_interview_prep">Welcome to Interview Prep !</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="options">options</string>
+    <string name="amper">&amp;</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="interview_experiences">Interview Experiences</string>
+    <string name="title_activity_tips">tips</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tip">tip</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_itips">itips</string>
+    <string name="title_activity_exp">exp</string>
+    <string name="title_activity_expcs">expcs</string>
+    <string name="title_activity_google">google</string>
+    <string name="title_activity_fragment4">fragment4</string>
+    <string name="title_activity_gd">gd</string>
+    <string name="title_activity_home">home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Women Empowerment - A Cause for Increasing Divorce Rate in India"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="women empowerment is not a cause for increasing divorce rate in India. It is not fair to blame a woman for being educated and living life on her terms.
+
+\n\nDivorce rates are high in urban areas. Divorces could happen among the spouses due to 'n' number of reasons-.
+
+\n- Infidelity (could be a wife or a husband).
+\n-Not a happy marriage.
+\n-Domestic violence.
+\n-Pressure from in-laws regarding dowry.
+\n-Divorce with mutual consent.
+\n-etc, etc, etc.
+
+\n\nEven in the urban areas, many believe that a woman's place is confined within the four walls. Many women are asked to give up their professions after marriage to look after their in-laws, husband and children.
+
+\n\nA marriage can only sustain if both wife and husband respect each other's wishes and believe that there must be a sense of equality rather than dominating each other. "
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" I believe that empowering a women we are making our country's backbone strong and leading towards the development. Talking about divorce its a taboo but there are several causes for it but solely blaming women empowerment its not justified. I would like to express in few points.
+
+\n\nFirst point :women empowerment. PARTIALLY YES! Because they have freedom to take decision if they are not comfortable in any matter. Earlier they have no choice except to depend on male even after being harassed, abused, threaten or being thrashed for dowry. So they can do nothing, just bear the exploitation and remain silent. But now they have freedom to raise out matter and take decision as per them.
+
+\n\nSecond point :Forced marriage. Some families in order to expand their business empire or just for converting.
+
+\n\nTheir friendship into relation they force their children to get engaged without seeking their views.
+
+\n\nThird point :Misuse of ipc 498 A, can contribute to divorce by falsely accusing or blaming male.
+
+\n\nForth point : Family interference. Sometimes possessive parent's decision for their children mislead them and they don't get a chance to of second thought about their decision.
+
+\n\nAt the same time we can't ignore the affect of modernisation which is being served us by the media. Some get inspire from them and do as they watch.
+
+\n\nLastly, conflict in between families : In some cases, not capable of settling down the matter in between saas and bahu.
+
+\n\nSo clearly from every direction their in no point in saying that women empowerment is accountable for increasing divorce rate."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" In my point view, women empowerment is not a cause of divorce.\n Divorce rate depends on the mutual understanding mutual trust and on the compatibility between them. And women empowerment is an entirely different thing.\n Women empowerment means to give authority to take decision independently. Even educated women can run their family better. \nShe can educate their children properly. Sometimes husbands feel insulted due to their uneducated wife and they started to fight and they don't love her and this becomes the cause of divorce. If the husband is educated then an educated wife or women can read his mind his lifestyle better than uneducated women and can adjust properly.\n And women empowerment helps in developing the country economically and it creates equality. Hence according to me, women empowerment is not a reason of divorce rate somehow it helps in decreasing the divorce rate."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes, I partially agree to this. I feel somehow women empowerment is affecting the rate of divorce.
+
+\n\nEarlier women were not free to take divorce even if she is not happy with her husband. She uses to sacrifice her life for her children and family and society. 100 times she uses to think about the society before taking divorce.
+
+\n\nBut nowadays, women are free to take decision she can take divorce if understanding is no between them.
+
+\n\nIn India out of 100, only 40% marriages are successful where a couple have an understanding between them, a strong bond between them. Rest are just living for the sake of living and this happens when the women have no source for getting apart. When she is not educated enough to work n grow her children.
+
+\n\nBut when I say about women empowerment, it has given an option for women to express her thoughts and live her life in her own way.
+
+\n\nShe can definitely take divorce if she is not happy with her husband.
+
+\n\nSo yes. I would say that somehow women empowerment is a reason for increasing the rate of divorce."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #5:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In my point of view, there is no link between women empowerment and divorce.\n Women empowerment is a part of equality between Men and Women. It is part of our nation.\n But I simply regret this, because of women empowerment only there is a chance for divorce is a foolishness one. Divorce is a misunderstanding between two couples.\n As a woman, I feel very happy because nowadays women freedom is as much in the nation compared to our previous years. So we (women) should use the empowerment in a good way. This empowerment is not for us to fight with men and hurt a man it is our rights and freedom we should use our rights and freedom in the best manner."
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/sociallinka4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

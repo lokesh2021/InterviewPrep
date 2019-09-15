@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Before you say a single word to the interviewer, you have already made an impression based on how you’re dressed. The guidelines given here are commonly accepted as appropriate for interviewing. Every company has a different dress code; how you dress at the job may have very little to do with how you dress for an interview."
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="MEN"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="•Dress in a manner that is professionally appropriate to the position for which you are applying. In almost all cases, this means wearing a suit. It is rarely appropriate to “dress down” for an interview, regardless of company dress code policy. When in doubt, go conservative.
+\n\n•You should wear a suit to interviews. “Suit” means the works: a matching jacket and pants, dress shirt, tie, coordinating socks and dress shoes. A dark-colored suit with light colored shirt is your best option.
+\n\n•Your suit should be comfortable and fit you well so that you look and act your best. There is a difference between not yet feeling at ease in a suit and trying to fit into the same suit you wore to your sister’s wedding when you were 15. (In the latter case, it’s time to invest in a new suit!)
+\n\n•Avoid loud colors and flashy ties.
+\n\n•Clothing should be neat, clean, and pressed. If you don’t have an iron, either buy one or be prepared to visit the dry-cleaner’s often. Shower or bathe the morning of the interview. Wear deodorant. Don’t wear cologne or aftershave. You don’t want to smell overpowering or worse, cause an allergic reaction.
+\n\n•Make sure you have fresh breath. Brush your teeth before you leave for the interview, and don’t eat before the interview. Don’t smoke right before an interview.
+\n\n•Your hair should be neat, clean, and conservative.
+\n\nWhile it may be appropriate to dress more casually for a second interview, you must still dress professionally.\n It’s much better to be too dressed up than too casual. A good rule of thumb is to dress like your boss.\n Shoes should be well-polished and in good condition, not scuffed or run-down at the heels. They should also match your belt. \nYou will get a great deal of use out of a good-quality pair of dress shoes in a traditional style. Ask the salesperson at the shoe store for advice. Be sure to shave the morning of the interview, even if you don’t ordinarily shave every day. \nIf you have a full beard or moustache it should be trimmed and neat-looking.\nThis may sound like a lot of rules, but these are the generally acceptable guidelines you should follow when deciding what to wear to an interview. Dressing professionally shows respect for yourself, the interviewer, and the company. You may not have to dress like this every day, but you are more likely to be taken seriously when you present yourself in a professional manner and take the time to attend to details."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/dress"
+                        android:layout_width="match_parent"
+                        android:layout_height="270dp"
+                        android:src="@drawable/dressing" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="WOMEN"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="•Generally, you should wear a suit with a skirt or pants.  When in doubt, be more conservative.
+\n\n•Your suit should be comfortable and fit you well; if your waistband is cutting you in half or your jacket is too tight, you won’t look or act your best. Some stores offer free alterations when you purchase a suit, or you may want to find a tailor to adjust a suit you already own.
+\n\n•Interview suits should be simple and dark in color. Anything tight, bright, short, or sheer should absolutely be avoided. (Interviewers have been known to complain about the length of interviewees’ skirts; if you have any doubts, it’s probably too short.) Knee-length skirts are suggested. Very long skirts, while modest, are also considered too trendy for an interview.
+\n\n•Wear a conservative blouse with your suit. Do not wear bright colors, animal prints, or anything lacy, sheer, or low-cut.
+\n\n•Make-up and nail polish should be understated and flattering; shades that are neutral to your skin tone are generally advisable. Avoid bright or unusual colors or very long nails.
+\n\n•Keep your jewelry and hair accessories to a minimum, and stick to those that are not flashy, distracting, or shiny. One ring per hand is best.
+\n\n•Shoes should be conservative and fairly low-heeled. They should be in reasonably good condition, not scuffed or run-down at the heels. Don’t wear shoes with an open toe or back; any shoes you would wear on a date or to a club are probably inappropriate. A basic pump is flattering, versatile, and will stay in style forever (once you own pumps, you can spend the rest of your money on fun shoes). The salesperson in the shoe store can steer you in the right direction.
+\n\n•Your hose should be neutral (matched to your skin tone). Make sure the heels are not dyed black from your shoes and that there are no snags or runs. Only use the nail polish trick in an emergency; you may want to carry an extra pair of hose with you instead.
+\n\n•Dress in a manner that is professionally appropriate to the position for which you are applying. In almost all cases, this means wearing a suit. It is rarely appropriate to “dress down” for an interview, regardless of company dress code policy. When in doubt, go conservative (is this starting to sound familiar?).
+\n\n•Your clothing should always be neat, clean, and pressed. If you don’t have an iron, either buy one or be prepared to visit the dry-cleaner’s often.
+\n\n•Shower or bathe the morning of the interview. Wear deodorant. Don’t wear perfume: you don’t want to smell overpowering or worse, cause an allergic reaction.
+\n\n•Make sure you have fresh breath. Brush your teeth before you leave for the interview, and don’t eat or smoke before the interview.
+\n\n•Your hair should be neat, clean, and conservatively styled. Banana clips, brightly-colored scrunchies or elastics, and cheerleader-type ponytails look out of place with a suit. You may want to wear your hair in an updo, pull it back into a low ponytail, or wear a barrette (this suggestion does not include the tiny little barrettes that only hold the front of your bangs back). The idea is to look polished and professional, not to advertise what a creative genius your hairdresser is.
+\n\nWhile it may be appropriate to dress more casually for a second interview, you must still dress professionally. It’s much better to be too dressed up than too casual. This may sound like a lot of rules, but these are the generally acceptable guidelines you should follow when deciding what to wear to an interview. Dressing professionally shows respect for yourself, the interviewer, and the company. You may not have to dress like this everyday, but you are more likely to be taken seriously when you present yourself in a professional manner and take the time to attend to details."
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

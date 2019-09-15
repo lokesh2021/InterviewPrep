@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Chinese Goods vs Indian Goods"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Almost every company that sells products have their manufacturing bases in China. Apple an American company has all it's manufacturing done in China, similarly Tesla the electric car company has set up manufacturing bases in China. China has a huge availability of cheap and skilled labour and inorder to compete globally companies manufacture from China.
+
+\n\nChinese goods are therefore superior from a technological and economic perspective but if companies like Apple or Samsung do not do the strict quality checks then there is a tendency to create the product as cheap as possible with no emphasis on quality.
+
+\n\nOn the other hand, India does not have labour as cheap as China or even the technological know how but the real aim for manufacturing in India is to make it as durable as possible. So, the cost is higher in India but due to the tendency of manufacturers product quality is superior to Chinese but there are compromises in terms of latest technology.
+
+\n\nThere has been instances where rice or eggs imported from China have been found to contain plastic replica among them.
+
+\n\nTherefore we can conclude that Chinese goods are cheaper and contain a lot of advanced features but they lack in quality because of the intention of manufacturers in China to focus on cost rather than quality. Meanwhile, Indian manufacturers have the intention to produce high-quality product but due to technological know how we produce the costlier and technologically backward product.
+
+\n\nBeing an Indian one should promote Indian products over Chinese inorder to strengthen our economy and manufacturing capability and technical know how. Also, Chinese products are not durable and can also be harmful to us so we must try to avoid them regardless of the cost-benefit they provide."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="There are various types of products existing in Indian market. Everyone is talking about Chinese product but there are also various countries product which we are using very vastly and may affect the economic growth of our country. Indian goods have good quality but they are costly as compare to Chinese product. Chinese products provide variety as well as introduce new function as they have new technologies.
+
+\n\nIf we talk about Indian economy it must be increases but we have to support only that product which really have good qualities. Othrwise for a particular time it is good for economic growth but as the time passes it will affect the growth of Indian economy."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="There are some facts because of which we favour the Chinese goods-.
+
+\n1. Cost of the Chinese product:
+
+\nWe know very well in China labour cost is very less, labour is easily available because of highest population country. So the availability of labour with good skills is the main advantage of China.
+
+\n2. Mass production capabilities:-.
+
+\nBecause of labour availability and automation of industries China produces in bulk so China can easily destroy an existing competitor.
+
+\n3. Decision making fast:- Decision making of China is very fast so updated product produces at the proper time.
+
+\n4. Technology:- China is not behind in technology so high technology products are Available at a lower price.
+
+\n5. Resources availability by foriegn policies:- China diplomacy with all its neighbours is very good so, all the resources available very easily.
+
+\nSo they are some facts which shows how much efficient Chinese production system is?
+
+\nSome facts against the if Chinese goods launch in India.
+
+\n1. Indian competitor sustainability:- Indian competitor will not sustain longer because of low cost and high availability of Chinese goods.
+
+\n2. Quality of goods:- Quality of Chinese goods are not bad always but which goods are coming in India they are not very durable and reliable. So again it is loss of India.
+
+\n3. Economic growth of India reduces:- As we discuss Indian competitor will not sustain at long so the economic development of India is also stopping.
+
+\n4. Dependency on China:- Indian dependency on China increase so it is not good for us.
+
+\nConclusion :-.
+
+\nAs the perspective of cost, availability and for short-term goals Chinese goods are better then India but if we think about long-term it is a big disaster for India.
+
+\nSo India government allow the Chinese products in India according to India's benefits and for fruitful competition."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Both Indian goods and Chinese goods have their own pro and cons. If we talk about the quality then indians goods are much better than chinese goods but at the same time the same Chinese product is cheaper than the Indian goods, so budget and the financial conditions are also concerned while choosing chinese product or Indian goods. But to support our countries gdp everybody should choose Indian product over chinese.
+
+\nBy buying Indian product over Chinese will help our country to improve its economic conditions and consequently thal will help in getting rid of many problems such that unemployement and poverty.
+
+\n\nThe conclusion of discussion is that we all should favor Indian goods over Chinese."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #5:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In my point of view, Chinese electronics products have very high demand because they are providing more features on less cost, for example, Xiaomi phones but when it comes to automotive, cloths and decorative products than Indian products are in demand."
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/currentlinka2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

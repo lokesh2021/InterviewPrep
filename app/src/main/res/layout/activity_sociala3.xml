@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Women are not fit for Defense Services"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="women are fit for defence services. Firstly, defence services is not only about Army, air force or navy, there are other services in defence as well (non combat jobs) Women in defence services can work in defence research department, account department, medical department, technical department etc. \nWomen have proved themselves by being a fighter jet pilot, Naval officer and more.
+
+\n\nBy proper training, practice and technique women have shown their ability in army as well."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" When it comes to about women our country becomes so soft and became emotional for the women. Women are not fit for the army. NOT AT ALL. Many of you take this wrong.
+
+\n\nBut I am in the army I know what women do here firstly army duty is to provide security to the nation whereas in Indian army women officer need security For herself if she can't walk alone without buddy Then How would they defend the country.
+
+\n\nSecondly, in the army, military training is compulsory for everyone for his own safety at least And these women don't how to fire they can't hold Weapon the because of the Heaviness. But they are expert in one thing how to do a party in officer mess, drink alcohol, smoking, sex with colleagues.
+
+\n\nMilitary nurses don't have any relation to military drill and military operations and they are getting more MSP from soldiers why?
+
+\n\nHave you Ever seen any para commando lady officer in India? Who comes out in republic day parade? NO.
+
+\n\nBecause they don't have guts.
+
+\n\nThey care about their beauty and skin maintenance. I am in army medical corps I have saw behaviour of nurses and doctors toward the patient. The patient is crying from pain but madam are busy in her gossips. No one shows sympathy for patients.
+
+\n\nAnd lady doctors don't know anything. Bloody third class doctors.
+
+\n\nAnd some people are here justifying the women.
+
+\n\nYou know compared to male officers women officer do more discrimination in the army. They treat soldiers as a servant and obviously this is India everyone listens to women so the helpless soldiers are not able to do anything.
+
+\n\nI want to make many of you clear that in today's world no one joined armed forces for his country they are Used to be unemployed that why they Found defence last option.\n Because it is easy to enrol compared to other city services whoever it is male, or female and they are serving for the nation and giving their life because army rules are very strict. You have to do it or otherwise ready for punishment so obviously they do their duty and during duty, they got killed and media make them a hero. Government have Army so many powers. So army has authority to punish the defaulters and army person can't seek help from police or court. So army person uses to keep in fear because they are not educated enough to fight for their right.
+
+\n\nSo take this out of your minds the era has changed So the women have changed."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" A lot of people have debated this from the emotional point of view and I'll try to avoid that, but biologically women and men have same or at least similar lower body strength so running, jumping walls, etc are usually not a problem but when upper body strength is concerned men are stronger than women (as can be observed by the fact than men have broader shoulders and denser muscles), so carrying heavy rucksacks or weapons like LMG (though it is called light machine gun,\n the only thing light about it is the name) and mortars, they also have been known on an average to be able to do less push ups and pull ups than men and are not able to perform as good as men in rope climbing, etc. Now, I have not stated any of these facts arbitrarily, the US Marines conducted a study on women and male Marines and found these facts, anyone who wants to cross check the fact can go read the report it is available to the public."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="every human is fit to serve the nation. Talking about women, in defence services they have proved themselves all over the world. In real life, they face more difficulties than men do but despite that, they are no less. On our republic day of 2018 women, soldiers performed really very very amazing bike stunt which was better than what male soldiers did. \nSo if they can do such daring act then they can do anything be it facing the war or any other occasion. In our country, there is very less awareness for women in the army also there are very less opportunities for them. There is only one way to prove that whether they are fit or not and that is giving them equal chances as males."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #5:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="womens are not fit for Defence. Eventhough Womens have equal rights with men but while consider defence they fail to have such qualities to move into defence. I won't say she can't. She has to workhard more and sacrifice a lot. She got abilitiy to override this obstacles but chance of possibility is less."
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/sociallinka3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

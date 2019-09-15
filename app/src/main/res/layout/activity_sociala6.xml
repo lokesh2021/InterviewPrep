@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.lokesh.interviewprep.HomeActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Terrorism in India"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #1:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Terrorism in India is a burning topic.
+
+\n\nNowadays. How these terrorism take place? Why young people are attracted to it?
+
+\n\nBasically, I am from the state Odisha. In my point of view, we should go to the root point.
+
+\n\n1. Illiteracy.
+\n2. Proverty.
+\n3. Unemployment.
+\n4. Lack of Govts effort.
+\nThese are The Star points which we should consider.
+
+\n\nAs they are illiterate, they are totally not aware of everything like govt facilities, the importance of schooling and they are having lack of decision making power as the view they are watching towards the world was totally very small.
+
+\n\n2. Now everyone's first priority is money. Why it should not be? poverty is another factor, which is forcing them to do the wrong thing to get money in an easier way.
+
+\n\n3. Unemployment has always been a great reason behind terrorism.
+
+\n\n4. Government Should try to give more focus on all these things. I am not saying govt is not doing anything. I am saying that the govt should give more importance to terrorism. It's like a disease. It will become epidemic. If we will not give an eye on it."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #2:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Terrorism is the threat for human life. Day by day terrorism increases all over the world, not in one or two country. \nBut especially in India due to a bad system, defensive approach, irresponsible politics. \nIncreasing population is one of the main reason of the growth of terrorism in India, because day by day machine and technology come into existence, due to that unemployment increases.\n In this process, many well-educated students unable to get a job (mainly due to reservation policy) and get depressed and in this state, anyone can easily be moulded their mind in the wrong path, i.e. also a factor to increasing terrorism in our country.\n We have to think on this otherwise it may take a hazardous look in an upcoming year."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #3:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Terrorism in India is a prior problem. But it is our government stupid policy which Pakistan takes it lightly. Example-.
+
+\n\n1. India nuclear policy is that we don't make a nuclear attack on someone first which means we should wait of getting hit by a nuclear attack from someone. Whereas Pakistan nuclear policy is that we can make a nuclear attack on anyone anytime so this is obviously creating fear in our leader of getting war with Pakistan. Because they care about votes and our country is not in a condition of war.
+
+\n\n2. Our home minister has recently declared a unilateral ceasefire in j&amp;k for Ramzan which means now terrorist got facilities of roaming in the state for 1 month. They can do anything but our forces have to keep on hold for 1 month.
+
+\n\nAs a result, robbery, murder, again started in Jammu.
+
+\n\nHow stupid our government is. ?really.
+
+\n\nA terrorist doesn't have any religion.
+
+\n\nI don't understand what our leader is trying to do. We are in a state of war with Pakistan since independence and our leader still hoping for peace. Our leader should learn from Israel and China. They never compromise with their security system."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #4:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Terrorism is an unlawful use of violence against civilians for personal or political or religious gains. But the medias especially foreign medias have influenced our thoughts, now when we hear terrorism our prejudiced mind concludes its Islamic related. But terrorism doesn't have any religion, caste or country based.
+
+\n\nIndia is the most diversified country in the whole world, similarly, India would be the land of most diverse terrorism. Religious terrorism, political terrorism, state terrorism or pathological terrorism, you can find every kind in here.
+
+\n\nUnless we the civilians are more responsible and tolerant eradication of terrorism from India will be impossible."
+                        android:textSize="16sp"/>
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Answer #5:-"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We all know that terrorism is one of the worst activity in this 21st century. Currently, many terrorists groups have been actively involving in violence, killings of innocent lives, social and economic destruction, Etc.
+
+\n\nIn order to fight against them, we should think first wisely despite the violence. For instance, many international and national organizations should come up with awareness programs and must strictly ban activities favoring terrorism. Social medias and the Internet can be a better conveying media for creating anti-terrorism activities."
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+                    <Button
+                        android:id="@+id/sociallinka6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="for more answers  >"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
